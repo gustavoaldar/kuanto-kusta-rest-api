@@ -4,7 +4,8 @@
   "main": "src/server.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/server.ts",
+    "start": "node dist/server.js",
+    "postinstall": "tsc",
     "dev": "ts-node-dev src/server.ts",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
@@ -16,7 +17,6 @@
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.6.0",
-    "ts-node": "^9.1.1",
     "typeorm": "^0.2.32",
     "uuid": "^8.3.2"
   },
