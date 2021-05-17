@@ -98,7 +98,7 @@ GET <<BASE_URL>>/product
 - Header
 
 ~~~
-Bearer <<TOKEN_LOGIN>>
+Authorization: Bearer <<TOKEN_LOGIN>>
 ~~~
 
 - Retorno
@@ -125,7 +125,7 @@ GET <<BASE_URL>>/cart
 - Header
 
 ~~~
-Bearer <<TOKEN_LOGIN>>
+Authorization: Bearer <<TOKEN_LOGIN>>
 ~~~
 
 - Retorno
@@ -155,7 +155,7 @@ POST <<BASE_URL>>/cart
 - Header
 
 ~~~
-Bearer <<TOKEN_LOGIN>>
+Authorization: Bearer <<TOKEN_LOGIN>>
 ~~~
 
 - Data
@@ -180,7 +180,7 @@ DELETE <<BASE_URL>>/cart/<<ID_DO_PRODUTO>>
 - Header
 
 ~~~
-Bearer <<TOKEN_LOGIN>>
+Authorization: Bearer <<TOKEN_LOGIN>>
 ~~~
 
 - Retorno
