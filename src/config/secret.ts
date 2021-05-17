@@ -1,0 +1,1 @@
+export const SECRET_API_KEY: string = "df3e0c81d9ae15aedc95d22cb1aa937d";
